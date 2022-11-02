@@ -39,6 +39,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        TextView button3 = findViewById(R.id.lab3_btn);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, lab3.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     @Override
